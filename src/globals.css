@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Questrial&display=swap');
+@import "tailwindcss";
+
+@theme {
+    --font-questrial: 'Questrial', sans-serif;
+
+    --color-forground: #000000;
+    --color-background: #FFFFFF;
+
+    --color-primary: #09246C;
+    --color-primary-foreground: #FFFFFF;
+    --color-primary-light: #1e40af;
+    --color-primary-dark: #1e3a8a;
+
+    --color-muted: #F8FAFB;
+    
+    --color-accent: #059669;
+    --color-accent-light: #10b981;
+    --color-accent-dark: #047857;
+    
+    --color-secondary: #6b7280;
+    --color-secondary-light: #9ca3af;
+    --color-secondary-dark: #374151;
+    
+    --color-success: #10b981;
+    --color-success-light: #34d399;
+    --color-success-dark: #059669;
+    
+    --color-warning: #f59e0b;
+    --color-warning-light: #fbbf24;
+    --color-warning-dark: #d97706;
+}
+
+body {
+    @apply bg-background text-forground font-questrial;
+}
