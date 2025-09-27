@@ -1,7 +1,7 @@
 import { useEffect } from "react";
 import emailjs from "@emailjs/browser";
 import RegistrationForm from "./components/form";
-import TopBar from "./components/layout/Top-bar";
+import TopBar from "./components/layout/top-bar";
 
 function App() {
   useEffect(() => {
